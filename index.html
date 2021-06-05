@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+  <header class="header">
+    <img src="./img/nerds-logо.svg">
+    <nav>
+      <ul>
+        <li><a href="#">студия</a></li>
+        <li><a href="#">клиенты</a></li>
+        <li><a href="#">магазин</a></li>
+        <li><a href="#">контакты</a></li>
+        <li><a href="./img/cart_icon.svg">корзина</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-slider">
+      <div class="slide">
+        <h2>Долго, дорого, скрупулезно</h2>
+        <a class="button" href="#">Узнать больше</a>
+        <div>
+          <img src="img/index.png">
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <h2>Наши услуги</h2>
+      <ul>
+        <li>Веб-сайты
+          <img src="img/illustration_sait.jpg">
+          <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+          <a href="#">Узнать больше</a>
+        </li>
+        <li> Приложения
+          <img src="img/illustration_play.png">
+          <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+          <a href="#">Узнать больше</a>
+        </li>
+        <li> Презентации
+          <img src="img/illustration_presen.png">
+          <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+          <a href="#">Узнать больше</a>
+        </li>
+      </ul>
+    </section>
+    <section class="company">
+      <h3>О компании</h3>
+      <div>
+        <h2 class="header-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+        <p class="header-info">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше
+          креатива. Работаем не покладая рук, как роботы.</p>
+        <p class="detail-list-title">Выполняем заказы на разработку:</p>
+        <ul class="detail-list">
+          <li>Веб-сайтов любой сложности</li>
+          <li>Мобильных приложений для iOS и Android</li>
+          <li>Слайдшоу и видео для корпоративных презентаций</li>
+        </ul>
+      </div>
+      <div>Since 2004</div>
+      <div>
+        <p>Как мы работаем</p>
+        <img src="img/nerds.png">
+        <ul>
+          <li>С самоотдачей 146%</li>
+          <li>Соблюдая сроки на 100%</li>
+          <li>По предоплате 50%</li>
+        </ul>
+      </div>
+    </section>
+    <section class="customers">
+      <ul>
+        <li>
+          <a href="#">
+            <img src="img/logo_htmlacademy.png">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/logo_borodinski.png">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/logo_pink.png">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/logo_mishka.png">
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+  <footer class="contacts">
+    <section>
+      <img src="img/map.png"
+        alt="Дизайн-студия NЁRDS расположена по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="1440"
+        height="416">
+      <div>
+        <div>
+          <b>NЁRDS DESIGN STUDIO</b>
+          <p>191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8</p>
+          <p>тел. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
+          <a class="write-us button" href="img/form.png"></a>Напишите нам</a>
+        </div>
+      </div>
+    </section>
+    <section class="basement">
+      <ul>
+        <li>
+          <a class="footer-left-column">
+            <img src="./img/fb_icon.svg" alt="fb_icon">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="footer-btn footer-btn-vk">
+            <img src="./img/vk_icon.svg" alt="vk_icon"></a>
+        </li>
+        <li>
+          <a href="#" class="footer-btn footer-btn-inst">
+            <img src="./img/inst.svg" alt="instagram icon">
+          </a>
+        </li>
+      </ul>
+      <div class="footer-right-column">
+        <h2 class="title">Давайте дружить, это выгодно!</h2>
+        <p class="info">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </section>
+  </footer>
+  <section class="info">
+    <form action="feedback-left-column">
+      <div>
+        <label class="data" for="login">Ваше имя:</label>
+        <input type="text" name="login" id="login" placeholder="Представьтесь, пожалуйста" required>
+      </div>
+      <div class="feedback-right-column">
+        <label class="data" for="email">Ваш e-mail:</label>
+        <input type="email" name="email" id="email" placeholder="Для отправки ответа" required>
+      </div>
+      <div>
+        <label class="data" for="feedback-textarea">Текст письма:</label>
+        <textarea name="text" id="feedback-textarea" placeholder="В свободной форме" required rows="5"></textarea>
+      </div>
+      <div class="block">
+        <button type="button">Отправить</button>
+        <button type="button">Отмена</button>
+      </div>
+    </form>
+  </section>
+</body>
+
+</html>
